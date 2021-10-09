@@ -19,6 +19,7 @@ export const styles = StyleSheet.create({
   },
   body: {
     flex: 1,
+    justifyContent: "flex-start",
     marginTop: 40,
     alignItems: "center"
   },
@@ -30,10 +31,9 @@ export const styles = StyleSheet.create({
     backgroundColor: "#000000c0"
   },
   movieImage: {
-    flex: 1,
-    marginTop: 10,
+    marginTop: 50,
     resizeMode: 'contain',
-    height: 110,
-    width: 200,
+    height: 200,
+    width: 300,
   }
 });

@@ -28,6 +28,8 @@ export const ShitYaKnickersContainer = () => {
           {movie &&
             <React.Fragment>
               <Text style={styles.movieText}>{movie.title ?? ""}</Text>
+              <Text style={styles.movieText}>{movie.vote_average ?? ""} / 10</Text>
+              <Text style={styles.movieText}>Release Date: {movie.release_date ?? ""}</Text>
               <Image style={styles.movieImage} source={{uri: `https://image.tmdb.org/t/p/w500/${movie.backdrop_path}`}} />
             </React.Fragment>
           }
