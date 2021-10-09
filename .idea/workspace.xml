@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ff143c4-d552-4ccd-9191-71fda670c24f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/babel.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/babel.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Domain/Movie.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Domain/Movie.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Styles.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ShitYaKaNickers.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ShitYaKaNickers.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +60,7 @@
       <option name="presentableId" value="Default" />
       <updated>1633735139825</updated>
       <workItem from="1633735142580" duration="6364000" />
-      <workItem from="1633743804313" duration="657000" />
+      <workItem from="1633743804313" duration="2749000" />
     </task>
     <servers />
   </component>

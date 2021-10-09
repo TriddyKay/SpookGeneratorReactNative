@@ -24,8 +24,16 @@ export const styles = StyleSheet.create({
   },
   movieText: {
     color: "red",
-    marginTop: 10,
+    padding: 10,
+    marginTop: 20,
     borderStyle: "dashed",
     backgroundColor: "#000000c0"
+  },
+  movieImage: {
+    flex: 1,
+    marginTop: 10,
+    resizeMode: 'contain',
+    height: 110,
+    width: 200,
   }
 });

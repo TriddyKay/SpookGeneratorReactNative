@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import {Button, ImageBackground, Text, View} from "react-native"
+import {Button, Image, ImageBackground, Text, View} from "react-native"
 import {styles} from "../Styles"
 import {NavBar} from "./NavBar"
 import {MovieQueryService} from "../Services/MovieQueryService"
@@ -25,7 +25,12 @@ export const ShitYaKnickersContainer = () => {
         <NavBar/>
         <View style={styles.body}>
           <Button color={'grey'} onPress={collectMovies} title={"Random Spook!"}/>
-          <Text style={styles.movieText}>{movie?.title ?? ""}</Text>
+          {movie &&
+            <React.Fragment>
+              <Text style={styles.movieText}>{movie.title ?? ""}</Text>
+              <Image style={styles.movieImage} source={{uri: `https://image.tmdb.org/t/p/w500/${movie.backdrop_path}`}} />
+            </React.Fragment>
+          }
         </View>
       </ImageBackground>
     </View>

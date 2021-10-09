@@ -11,7 +11,7 @@ export type MoviesResponse = {
 
 export type Movie = {
   adult: boolean
-  background_path: string
+  backdrop_path: string
   genre_ids: number[]
   id: string
   original_language: string
